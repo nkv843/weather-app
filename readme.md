@@ -3,7 +3,7 @@
 <p></p>
 <h2>Quick start:</h2>
 <h3>1. Clone repository</h3>
-<h3>2. Go to <a href="https://myprojects.geoapify.com/">geoapify.com</a></h3>
+<h3>2. Go to <a href="https://www.geoapify.com/">geoapify.com</a></h3>
 <h3>3. Create api key</h3>
 <h3>4. Go to src/common/store/geoapifyApi</h3>
 <h3>5. Paste your key in the proper place</h3>
