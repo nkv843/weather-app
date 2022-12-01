@@ -1,0 +1,21 @@
+.addToFav {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  fill: rgba(65, 45, 88, .5);
+  transition: fill .1s linear;
+}
+
+.addToFav:hover,
+.addToFav:focus {
+  fill: #9873FF;
+}
+
+.addToFav:active {
+  fill: rgb(255, 106, 203);
+}

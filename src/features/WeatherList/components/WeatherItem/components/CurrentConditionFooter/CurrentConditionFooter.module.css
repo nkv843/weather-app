@@ -1,0 +1,51 @@
+.currentCondition {
+  /* min-height: 90px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.currentCondition * {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  text-align: left;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wind {
+  padding-left: 0;
+}
+
+.windSpeed {
+  font-size: 23px;
+  background-image: url('../../../../../../assets/img/wind-speed.svg');
+  margin-bottom: 10px;
+}
+
+.windDirection {
+  font-size: 23px;
+  background-image: url('../../../../../../assets/img/wind-direction.svg');
+  margin-bottom: 0;
+}
+
+.cloudiness {
+  font-size: 23px;
+  background-image: url('../../../../../../assets/img/cloudyness.svg');
+}
+
+.humidity {
+  font-size: 23px;
+  background-image: url('../../../../../../assets/img/humidity.svg');
+}
+
+.pressure {
+  font-size: 23px;
+  background-image: url('../../../../../../assets/img/pressure.svg');
+  margin-right: 0;
+}

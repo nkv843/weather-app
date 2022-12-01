@@ -1,0 +1,31 @@
+.item {
+  position: relative;
+  display: flex;
+  flex: 1 0 70px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 130px;
+  max-width: 90px;
+}
+
+.item__title {
+  text-align: center;
+  font-size: 23px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.item__iconWrapper {
+  margin-bottom: 10px;
+}
+
+.item__icon {
+  width: 100%;
+}
+
+.item__temp {
+  text-align: center;
+  font-size: 23px;
+  margin: 0;
+}

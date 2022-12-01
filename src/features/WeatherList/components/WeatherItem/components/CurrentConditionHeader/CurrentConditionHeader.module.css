@@ -1,0 +1,40 @@
+.location {
+  font-size: 28px;
+  font-weight: 600;
+  max-width: 30%;
+}
+
+.header {
+  display: flex;
+  margin: 0 10px 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location,
+.time,
+.temp,
+.weather {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.icon {
+  margin: 0;
+  margin-right: 20px;
+  min-height: 70px;
+}
+
+.location,
+.time,
+.temp,
+.descr {
+  font-size: 23px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.form {
+  flex-direction: column;
+  flex: 0 1 40%;
+  margin: 0 20px 20px 0;
+}
+
+.formContent {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.submit {
+  flex-shrink: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: translateX(-10px);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 15px 35px;
+  background-color: #9873FF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  transition: background-color .2s linear, transform .1s linear;
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: #d373ff
+}
+
+.submit:active {
+  transform: translateX(0px);
+}

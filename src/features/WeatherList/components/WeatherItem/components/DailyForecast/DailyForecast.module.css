@@ -1,0 +1,15 @@
+.daylyForecast {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-bottom: 1px solid rgba(65, 45, 88, .5);
+  border-top: 1px solid rgba(65, 45, 88, .5);
+  margin-bottom: 10px;
+}
+
+.daylyForecastHalf {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex: 1 0 50%;
+}

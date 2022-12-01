@@ -1,0 +1,6 @@
+.weeklyForecast {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex: 0 1 275px
+}
