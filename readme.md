@@ -1,4 +1,6 @@
-<h1 align="center">Weather api app with react redux</h1>
+<h1 align="center">Weather api app</h1>
+<h2>Description:</h2>
+<p></p>
 <h2>Quick start:</h2>
 <h3>1. Clone repository</h3>
 <h3>2. Go to <a href="https://myprojects.geoapify.com/">geoapify.com</a></h3>
